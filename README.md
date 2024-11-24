@@ -14,13 +14,13 @@ This project is a Face Recognition system using Python, OpenCV, and the face_rec
   
 - Process:
 
-1. Loads and processes two images (one for training, one for testing).
+    1. Loads and processes two images (one for training, one for testing).
 
-2. Detects faces and generates encodings (128-dimensional feature vectors) for the faces.
+    2. Detects faces and generates encodings (128-dimensional feature vectors) for the faces.
 
-3. Compares the test image's face with the training image's face using the generated encodings.
+    3. Compares the test image's face with the training image's face using the generated encodings.
 
-4. Displays bounding boxes around the detected faces and calculates the similarity distance between the faces.
+    4. Displays bounding boxes around the detected faces and calculates the similarity distance between the faces.
 
 - Output: Prints whether the faces match and shows the similarity score.
 
@@ -30,27 +30,27 @@ This project is a Face Recognition system using Python, OpenCV, and the face_rec
 
 - Process:
 
-1. Loads images of known individuals from the AttendanceImg folder and generates face encodings for them.
+    1. Loads images of known individuals from the AttendanceImg folder and generates face encodings for them.
 
-2. Continuously captures video from the webcam, detects faces in the frame, and compares them to the known faces.
+    2. Continuously captures video from the webcam, detects faces in the frame, and compares them to the known faces.
 
-3. If a match is found, marks the attendance by saving the person's name and the current time in a CSV file.
+    3. If a match is found, marks the attendance by saving the person's name and the current time in a CSV file.
 
-4. Draws bounding boxes around detected faces and displays the name of the recognized person.
+    4. Draws bounding boxes around detected faces and displays the name of the recognized person.
 
 - Output: Captures real-time attendance and stores the data in a CSV file with timestamps.
 
 ### Technologies Used
 
--> Python: Core programming language.
+- Python: Core programming language.
 
--> OpenCV: For video capture and image processing.
+- OpenCV: For video capture and image processing.
 
--> Face Recognition Library: For face detection and encoding.
+- Face Recognition Library: For face detection and encoding.
 
--> NumPy: For mathematical operations on image arrays.
+- NumPy: For mathematical operations on image arrays.
 
--> CSV File Handling: To store attendance records.
+- CSV File Handling: To store attendance records.
 
 ### Features
 
