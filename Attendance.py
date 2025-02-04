@@ -8,7 +8,7 @@ path = 'AttendanceImg'
 imgs = []
 names = []
 myList = os.listdir(path)
-# print(myList) #prints 
+# print(myList) #prints ['Adi.jpg', 'Lokesh.jpg', 'Reena.jpg', 'Riya.jpg']
 for i in myList:
     curImg = cv2.imread(f'{path}/{i}')
     # This line reads an image file from the directory and stores it in the variable curImg.
